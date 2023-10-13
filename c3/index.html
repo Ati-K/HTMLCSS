@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form>
+      <p><input type="text" placeholder="Enter thine name" /></p>
+      <p>
+        <input type="password" placeholder="Enter your password" />
+      </p>
+      <p>
+        <input type="date" />
+      </p>
+      <p><input type="number" min="0" max="10" /></p>
+      <p>
+        <label for="redcheck">Red</label>
+        <input type="checkbox" id="redcheck" />
+      </p>
+      <p>
+        <label for="greencheck">Green</label>
+        <input type="checkbox" id="greencheck" />
+      </p>
+      <p>
+        <label for="bluecheck">Blue</label>
+        <input type="checkbox" id="bluecheck" />
+      </p>
+      <p>
+        <label for="Male">Male</label>
+        <input type="radio" id="Male" name="Gender" />
+      </p>
+      <p>
+        <label for="Female">Female</label>
+        <input type="radio" id="Female" name="Gender" />
+      </p>
+      <p>
+        <select>
+          <option value="macedonia">Macedonia</option>
+          <option disabled value="usa">USA</option>
+          <option value="uk">UK</option>
+          <option value="netherlands">Netherlands</option>
+          <option value="germany">Germany</option>
+        </select>
+      </p>
+      <p>
+        <select multiple>
+          <option value="macedonia">Macedonia</option>
+          <option disabled value="usa">USA</option>
+          <option value="uk">UK</option>
+          <option value="netherlands">Netherlands</option>
+          <option value="germany">Germany</option>
+        </select>
+      </p>
+      <p>
+        <label>Before you file that lawsuit...</label>
+        <br />
+        <textarea
+          placeholder="Please let us know how we can improve!"
+        ></textarea>
+      </p>
+      <p>
+        <label>Amount of money you're after.</label>
+        <br />
+        <input type="range" />
+      </p>
+      <p><input type="file" /></p>
+      <p>
+        <button>Send</button>
+      </p>
+      <hr />
+    </form>
+    <form>
+      <fieldset>
+        <legend>Personal Info</legend>
+        <p><input type="text" placeholder="Name" /></p>
+        <p><input type="email" placeholder="Email" /></p>
+        <p><input type="date" /></p>
+      </fieldset>
+      <fieldset>
+        <legend>Work Info</legend>
+        <p><input type="text" placeholder="Company Name" /></p>
+        <p><input type="text" placeholder="Company Email" /></p>
+      </fieldset>
+    </form>
+  </body>
+</html>
