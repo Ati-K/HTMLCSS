@@ -1,0 +1,222 @@
+/* .parent {
+  display: flex;
+  background-color: DodgerBlue;
+  flex
+}
+
+.topbox {
+  background-color: #f1f1f1;
+  width: 500px;
+  height: 50px;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+.bigbox {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: rgb(112, 1, 92);
+  width: 48%;
+  height: 500px;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+.bigbox1 {
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 48%;
+  height: 500px;
+  margin: 5px;
+  padding: 5px;
+  font-size: 30px;
+}
+.rowbox {
+  background-color: rgb(169, 157, 0);
+  width: 98%;
+  height: 22.5%;
+  margin: 10px;
+  padding: 5px;
+  font-size: 30px;
+}
+
+.inbox {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: white;
+} */
+
+.mainbox {
+  display: flex;
+  width: 80%;
+  height: 700px;
+  background-color: rgb(0, 98, 65);
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 8px;
+}
+.boxes {
+  width: 390px;
+  height: 150px;
+  background-color: rgb(0, 130, 186);
+}
+.boxes1 {
+  width: 49%;
+  height: 75%;
+  background-color: rgb(111, 25, 1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.mainbox2 {
+  display: flex;
+  background-color: rgb(0, 98, 65);
+  justify-content: space-around;
+}
+.boxes2 {
+  width: 100%;
+  height: 25%;
+  background-color: rgb(42, 0, 80);
+  margin: 1px;
+}
+.boxes4 {
+  width: 49%;
+  height: 75%;
+  display: flex;
+  justify-content: ;
+  flex-direction: column;
+}
+
+.flagbox {
+  display: flex;
+  background-color: rgb(169, 177, 179);
+  flex-wrap: wrap;
+  margin: 0 auto 0 auto;
+}
+.flag {
+  width: 25%;
+  height: 250px;
+  background-color: rgb(255, 255, 255);
+}
+.vert3 {
+  width: 33%;
+  height: 100%;
+}
+.insideflag {
+  width: 100%;
+  height: 33%;
+  display: flex;
+  justify-content: start;
+}
+.insideflag1 {
+  width: 33%;
+  height: 100%;
+  display: flex;
+
+  flex-direction: row-reverse;
+}
+.insideflag2 {
+  width: 100%;
+  height: 50%;
+  align-items: end;
+  justify-content: space-between;
+  display: flex;
+}
+.insideflag3 {
+  width: 100%;
+  height: 50%;
+  justify-content: space-between;
+  display: flex;
+}
+
+.flag1 {
+  width: 25%;
+  height: 250px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+}
+
+.emblem {
+  width: 30%;
+  height: 80%;
+  background-color: white;
+  margin: 3.3% 15%;
+}
+.insidebox {
+  background-color: rgb(0, 62, 207);
+  display: flex;
+  width: 30%;
+  height: 70%;
+}
+.insidebox1 {
+  background-color: rgb(0, 62, 207);
+  display: flex;
+  width: 30%;
+  height: 70%;
+}
+.greecemain1 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.greecemain2 {
+  width: 100%;
+  height: 61%;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.greecebox1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  height: 25%;
+  background-color: white;
+}
+.greecebox2 {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+}
+.greecebox2w {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.greecebox3w {
+  display: flex;
+  width: 100%;
+  height: 13%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+}
+.greecebox3 {
+  display: flex;
+  width: 33%;
+  height: 33%;
+  background-color: rgb(0, 34, 255);
+}
+.greecebox3b {
+  display: flex;
+  width: 100%;
+  height: 19%;
+  background-color: rgb(0, 34, 255);
+}
