@@ -1,0 +1,127 @@
+body {
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+html {
+  height: 100%;
+}
+.parent {
+  width: 80%;
+  height: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(50px, 1fr));
+  grid-template-rows: repeat 4;
+  /* grid-auto-rows: 100px;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: column; */
+}
+.slab {
+  color: white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: xx-large;
+  margin: 2px;
+  border: solid black 0px;
+}
+.slab-1 {
+  grid-column-start: span 3;
+  background-color: rgb(156, 0, 156);
+}
+.slab-2 {
+  grid-row-start: span 2;
+  background-color: rgb(84, 0, 201);
+}
+
+.slab-3 {
+  background-color: rgb(51, 160, 174);
+}
+.slab-4 {
+  background-color: rgb(0, 198, 17);
+}
+.slab-5 {
+  grid-column-start: span 2;
+  background-color: rgb(110, 0, 123);
+}
+.slab-6 {
+  grid-column-start: span 2;
+  background-color: rgb(103, 102, 175);
+}
+.slab-7 {
+  background-color: rgb(140, 147, 3);
+}
+.slab-8 {
+  background-color: rgb(115, 52, 0);
+  grid-column: span 3;
+}
+.item {
+  /* width: 100px;
+  height: 100px; */
+  background-color: blue;
+  border: solid red 5px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.item-1 {
+  /* background-color: green;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-end: 2; */
+}
+.item-2 {
+  /* background-color: rgb(159, 159, 0);
+  grid-column-start: 3; */
+}
+
+.item-3 {
+  /* background-color: cyan;
+  grid-column-start: 1;
+  grid-row-start: 2;
+  grid-row-end: 4; */
+}
+
+.item-4 {
+  /* background-color: purple;
+  grid-column-start: 2
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 2; */
+}
+.item-5 {
+  /* background-color: rgb(4, 102, 102); */
+}
+.item-6 {
+  /* background-color: orange; */
+}
+.box {
+  border: solid black 1px;
+  margin: 5px;
+  padding: 8px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.box-1 {
+  grid-row-start: span 3;
+}
+
+.inbox img {
+  width: 100%;
+}
+
+.inboxS {
+  display: flex;
+  flex-direction: row;
+}
+.inboxS img {
+  width: 55%;
+  margin: 5px;
+}
+.box-6 {
+  grid-row: span 3;
+}
