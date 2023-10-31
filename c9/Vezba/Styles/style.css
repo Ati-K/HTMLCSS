@@ -1,0 +1,46 @@
+header {
+  background-color: grey;
+  position: sticky;
+}
+
+body {
+  margin: 0px;
+}
+.parent {
+  display: flex;
+}
+nav {
+  background-color: darkslategrey;
+}
+
+.navigation ul li {
+  display: inline-block;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0px;
+  color: white;
+  border-right: 1px solid white;
+}
+.navigation ul li a {
+  display: inline-block;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0px;
+  color: white;
+}
+.navigation ul {
+  padding: 0px;
+}
+
+p {
+  width: 50%;
+}
+
+.catlist {
+}
+
+@media (max-width: 800px) {
+  .parent {
+    display: block;
+  }
+}

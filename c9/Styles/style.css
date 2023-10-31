@@ -1,0 +1,39 @@
+body {
+  /* font-family: "Noto Sans", sans-serif; */
+  font-family: "roboto_slabregular";
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 700;
+}
+/* 
+p {
+  width: 400px;
+  font-weight: 400;
+  text-transform: none;
+  line-height: 50px;
+  letter-spacing: 50px;
+} */
+
+@media (max-width: 900px) {
+  body {
+    background-color: red;
+  }
+}
+
+.responsive {
+  text-align: center;
+  font-size: 40px;
+}
+
+@media (max-width: 1024px) {
+  .responsive {
+    font-size: 24px;
+  }
+}
+@media (max-width: 600px) {
+  .responsive {
+    font-size: 14px;
+  }
+}

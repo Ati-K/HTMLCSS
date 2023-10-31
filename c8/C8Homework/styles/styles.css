@@ -1,0 +1,112 @@
+body {
+  height: 100%;
+}
+
+.parent {
+  margin: 0 auto;
+  height: 600px;
+  width: 600px;
+  border: 2px solid aqua;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(2, 100px);
+  justify-content: space-evenly;
+  align-content: space-evenly;
+}
+
+.dice {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dice1 {
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+  background-color: red;
+}
+.dice2 {
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+  background-color: black;
+  position: relative;
+  top: 30%;
+  left: 45%;
+}
+.dice2-2 {
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+  background-color: black;
+  position: relative;
+  bottom: 30%;
+  right: 45%;
+}
+
+.dice3 {
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  position: relative;
+  bottom: 32%;
+  right: ;
+}
+.dice3-2 {
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  position: relative;
+  top: 35%;
+  left: 35%;
+}
+.dice3-3 {
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  position: relative;
+  top: 2px;
+  right: 33px;
+}
+
+.dice4 {
+}
+
+.dice4-1 {
+}
+.dot4-tl {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  position: relative;
+  bottom: 30px;
+  left: 15px;
+}
+.dot4-tr {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  position: relative;
+  bottom: 30px;
+  left: 35px;
+}
+.dot4-br {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  position: relative;
+  top: 30px;
+  right: 26px;
+}
